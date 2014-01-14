@@ -1,0 +1,14 @@
+doctype html
+html
+
+  head
+    title Jade Example
+    link(rel="stylesheet", href="/style.css")
+
+  body
+    h1 Users
+    #users
+      for user in users
+        .user
+          h2= user.name
+          .email= user.email
