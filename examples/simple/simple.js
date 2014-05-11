@@ -1,7 +1,10 @@
 var express = require('express'),
     app = require('../../index')(express);
 
-app.use(app.router);
+app.get('/', function(req, res){
+  res.render('index', { users: users });
+});
+
 app.use(express.static(__dirname + '/public'));
 
 app.set('views', __dirname + '/views');
@@ -21,10 +24,6 @@ var users = [
     new User('Arnt', 'a@example.com'),
     new User('Ove', 'o@example.com')
 ];
-
-app.get('/', function(req, res){
-  res.render('index', { users: users });
-});
 
 app.listen(3000);
 console.log('Express app started on port 3000');
