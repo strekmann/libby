@@ -7,21 +7,21 @@
   "main": "index.js",
   "repository": "git://github.com/strekmann/libby",
   "dependencies": {
-    "underscore": "^1.5.2",
+    "underscore": "^1.6.0",
     "connect-redis": "2.x",
-    "express-validator": "^1.0.1",
-    "moment": "^2.5.0",
+    "express-validator": "^2.3.0",
+    "moment": "^2.8.1",
     "connect-flash": "^0.1.1",
-    "i18n-abide": "^0.0.20",
-    "cookie-parser": "^1.0.1",
-    "body-parser": "^1.1.2",
-    "method-override": "^1.0.0",
-    "express-session": "^1.0.4",
-    "morgan": "^1.0.1",
-    "errorhandler": "^1.0.1"
+    "i18n-abide": "^0.0.22",
+    "cookie-parser": "^1.3.2",
+    "body-parser": "^1.6.3",
+    "method-override": "^2.1.3",
+    "express-session": "^1.7.5",
+    "morgan": "^1.2.2",
+    "errorhandler": "^1.1.1"
   },
   "devDependencies": {
-    "express": "^4.1.2",
-    "jade": "~1.1.4"
+    "express": "^4.8.3",
+    "jade": "^1.5.0"
   }
 }
